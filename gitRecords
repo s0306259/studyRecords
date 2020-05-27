@@ -1,0 +1,8 @@
+git学习笔记：
+2020-05-27
+git add afile----将一个文件提交到暂存区域
+git commit afile -m "comment"----将已暂存的文件提交到本地仓库
+
+git status ----查看状态
+git branch----查看分支情况
+git branch -r ----查看远程仓库的分支情况
