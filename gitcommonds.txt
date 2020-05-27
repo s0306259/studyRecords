@@ -5,3 +5,18 @@ git 常用命令学习记录
 2、git add -A          本地仓库中暂存区的所有变更提交到工作区，包括文件修改、新增文件、删除文件记录
 3、git add -u          本地仓库中暂存区的修改、删除记录提交到工作区，新增文件记录不提交
 4、git add .           本地仓库中暂存区的修改、新增记录提交到工作区，删除文件记录不提交
+
+2020-05-27
+
+5. git commit afile -m "备注信息"	将暂存区的指定文件afile提交到本地仓库(当前分支操作)
+6. git push							将本地分支推送到远程分支
+7. git push origin local_branch:remote_branch 将本地分支local_branch推送到远程分支remote_branch,如果远程分支不存在则新建远程分支
+8. git push origin :remote_branch 删除远程分支remote_branch
+9. git checkout -b local_branch orgin/remote_branch 创建本地分支local_branch以跟踪远程分支remote_branch
+10. git checkout --track origin/remote_branch 对远程仓库origin的remote_branch进行本地跟踪（本地创建新同名分支）
+11. git checkout local_branch 切换到本地分支local_branch
+12. git checkout -b local_branch 以当前分支为基线创建新的分支local_branch并切换到此分支
+13. git checkout -- afile 撤销工作区对afile文件的修改
+14. git branch 查看本地分支
+15. git branch -r 查看远程分支
+16. git branch -b new_branch 创建新分支
