@@ -1,0 +1,2 @@
+2020-06-06
+unzip -d /home/zxf/001 myarchivefile.zip  默认情况下unzip命令将zip文件解压到当前路径下，若加-d参数并指定路径则将解压到指定文件夹下
