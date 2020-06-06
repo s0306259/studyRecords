@@ -25,3 +25,16 @@ git pull 从远程仓库获取最新数据更新本地仓库分支
 
 2020-05-28
 先览下昨天学习的内容
+
+2020-05-31:
+
+17. git 衍合
+git checkout zxf_01 切换到分支zxf_01
+git rebase master(将当前分支衍合到master分支)
+git checkout master
+git merge zxf_01
+git push
+git branch -d zxf_01 
+
+
+git rebase --on-to master zxf_01 
