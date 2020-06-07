@@ -3,3 +3,8 @@
 document对象
 document.querySelector()
 document.querySelectorAll()
+document.getElementById()
+
+document.title
+document.URL
+document.cookie
