@@ -4,3 +4,13 @@ scp newuser@10.100.200.20:/home/zxf/001 ../xpth/  将远程机器10.100.200.20�
 grep -e 
 ls -l
 mkdir -p /home/zxf/002 创建文件夹，如果升级目录不存在则先创建上级目录
+
+文件处理相关命令：
+创建文件：touch fname
+复制文件：cp sourcef destfilepath
+编辑文件：vi fname
+移动/重命名文件 mv fa fb
+删除文件：rm fname
+查看文件统计信息：stat fname
+查看文件类型：file fname(三种类型：文本文件，可执行文件，数据文件)
+查看文件内容：cat more less tail head
