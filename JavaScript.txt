@@ -1,0 +1,5 @@
+2020-06-07
+
+document对象
+document.querySelector()
+document.querySelectorAll()
